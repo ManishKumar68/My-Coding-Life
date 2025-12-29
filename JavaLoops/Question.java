@@ -1,4 +1,5 @@
-/* Question 1 :- Print numbers from 1 to 10.
+// Question 1 :- Print numbers from 1 to 10.
+import java.util.Scanner;
 public class Question {
     public static void main(String[] args) {
         int a = 1;
@@ -7,10 +8,11 @@ public class Question {
             a++;
         }
     }
-}*/
+}
 
-//Question @ :- Print number from 1 to n.
-/*public class Question {
+//Question 2 :- Print number from 1 to n.
+import java.util.Scanner;
+public class Question {
     public static void main(String[] args) {
         Scanner Scanner = new Scanner(System.in);
         System.out.print("Enter the number : ");
@@ -22,11 +24,12 @@ public class Question {
             counter++;
         }
     }
-}*/
+}
 
 
-// 3 Question - Print sum of First n  natural Number.
-/*public class Question {
+// 3 Question 3 - Print sum of First n  natural Number.
+import java.util.Scanner;
+public class Question {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
@@ -42,11 +45,12 @@ public class Question {
         System.out.println("-----------");
         System.out.println(" Total number of n : " +sum);
     }
-}*/
+}
 
 
-//Print SQUARE pattern
-/*public class Question {
+// Question 4 - Print SQUARE pattern
+import java.util.Scanner;
+public class Question {
     public static void main(String[] args) {
 //        for loops same worksss.
         for (int line = 1 ; line <= 4; line++) {
@@ -59,20 +63,21 @@ public class Question {
             i++;
         }
     }
-}*/
+}
 
-// Question Print Reverse of a number.
-/*public class Question {
+// Question 5 - Print Reverse of a number.
+public class Question {
     public static void main(String[] args) {
         for(int n = 108; n >= 1; n--) {
             System.out.println(n);
         }
     }
-}*/
+}
 
 
-// Question - Print reverse of a number using loop.  (n = 10899)
-/*public class Question {
+// Question 6 - Print reverse of a number using loop.  (n = 10899)
+import java.util.Scanner;
+public class Question {
     public static void main(String[] args) {
         int n = 10899;
         while (n > 0) {
@@ -82,10 +87,11 @@ public class Question {
         }
         System.out.println(" n value is : " + n);
         }
-    }*/
+    }
 
-//    Question Reverse of a number using  loop ( n = 10899)
-/*public class Question {
+//    Question 7 - Reverse of a number using  loop ( n = 10899)
+import java.util.Scanner;
+public class Question {
     public static void main(String[] args) {
         int n = 10899;
         int originalNumber = n;
@@ -117,11 +123,11 @@ public class Question {
         System.out.println(originalNumber);
         System.out.println(" Reverse of a number is : " + reverse);
     }
-}  */ 
+}  
 
 
-//Question - Check if a number is Prime or not. (Formula -
-/*import java.util.Scanner;
+//Question 8 - Check if a number is Prime or not. (Formula -
+import java.util.Scanner;
 public class Question {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -145,10 +151,10 @@ public class Question {
         }
     }
         
-}*/
+}
 
- //Question - Check if a number is Prime or not. (Formula - optimized approach)
-/*import java.util.Scanner;
+ //Question 9 - Check if a number is Prime or not. (Formula - optimized approach)
+import java.util.Scanner;
 public class Question {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -172,13 +178,13 @@ public class Question {
         }
     }
         
-}*/
+}
 
 
 
 // LOOPS QUESTIONS
-// Question 1 :How many times 'Hello' is printed?
-/*import java.util.Scanner;
+// Question 10 :How many times 'Hello' is printed?
+import java.util.Scanner;
 public class Question {
     public static void main(String[] args) {
         // for (int i = 0; i < 5; i++){
@@ -186,9 +192,9 @@ public class Question {
         //     i = i + 2;
         // }
     }
-}*/
+}
 
-// Question2: Write a program that reads a set of integers, and then prints the sum of the even and odd integers
+// Question 11 : Write a program that reads a set of integers, and then prints the sum of the even and odd integers
 import java.util.Scanner;
 public class Question {
     public static void main(String[] args) {
