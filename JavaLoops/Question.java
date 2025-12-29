@@ -181,9 +181,8 @@ public class Question {
 }
 
 
-
 // LOOPS QUESTIONS
-// Question 10 :How many times 'Hello' is printed?
+// Question 10 : How many times 'Hello' is printed?
 import java.util.Scanner;
 public class Question {
     public static void main(String[] args) {
@@ -194,15 +193,48 @@ public class Question {
     }
 }
 
-// Question 11 : Write a program that reads a set of integers, and then prints the sum of the even and odd integers
+
+// Question 11: Write a program that reads a set of integers, and then prints the sum of the even and odd integers
 import java.util.Scanner;
 public class Question {
     public static void main(String[] args) {
-Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number : ");
-        int n = sc.nextInt();
-        int sum = 0;
-        
-        
+        Scanner sc = new Scanner(System.in);
+        int number; //99 , 7 , 88 ,27, 
+        int choice; //yes , yes , yes , no
+        int evenSum = 0; //88+
+        int oddSum = 0; // 99 + 7 + 27
+        do {
+            System.out.println("Enter the Number ");
+            number = sc.nextInt();
+
+            if(number % 2 == 0){
+                evenSum += number; // evenSum=  evenSum + number that is same 
+            } else {
+            oddSum += number;
+        }
+
+        System.out.println("Do you went to continue? press 1 for yes or 0 for no");
+        choice = sc.nextInt();
+
+        } while (choice == 1);
+        System.out.println("Sum of even Number :" + evenSum); //88
+        System.out.println("Sum of odd Number :" +oddSum);   // 133
+    }
+}*/
+
+ 
+// Question 12 : Write a program to find the factorialof any number entered by the user.(Hint:factorialofanumbern=n*(n-1)*(n-2)*(n-3)*......*1andex is ts for positive numbers only. We write factorial as n!So, factorial of 0! = 1, 1! = 1, 2! = 2, 3! = 6, 4! = 24 and so on.Note - Please do not confuse factorial with NOT EQUAL TO operator, they are not the same)
+import java.util.Scanner;
+public class Question {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter any positive integer: ");
+        int num = sc.nextInt();
+        int fact = 1;
+        for (int i = 1; i <= num; i++) {
+            fact *= i;
+        }
+        System.out.println("Factorial: " + fact);
     }
 }
+
