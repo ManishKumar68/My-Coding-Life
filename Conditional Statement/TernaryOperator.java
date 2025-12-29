@@ -1,7 +1,7 @@
 import java.util.*;
 class TernaryOperator {
     public static void main(String[] args){
-        /*Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int number =sc.nextInt();
 
         String numbers = ((number % 2) == 0)? "Even" : "odd";
