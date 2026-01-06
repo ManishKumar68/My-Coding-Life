@@ -1,5 +1,5 @@
-
-/*public class NestedLoops {
+....
+public class NestedLoops {
     public static void main(String[] args) {
         // outer loops
         for (int Line = 1; Line <= 4; Line++) {
@@ -10,7 +10,7 @@
             System.out.println();
         }
     }
-}*/
+}
 
 /* output
 
@@ -23,7 +23,7 @@
 
 
 // inverted Star partten Print 
-/*public class NestedLoops {
+public class NestedLoops {
     public static void main(String[] args) {
         int n = 4;
         // outer loops
@@ -46,7 +46,7 @@
 
 
 // Print Half-Pyramid pattern.
-/*public class NestedLoops {
+public class NestedLoops {
     public static void main(String[] args) {
         
         // outer loops
@@ -58,10 +58,10 @@
             System.out.println();
         }
     }
-}*/
+}
 
 // Print Half-Pyramid Charecter Print...
-/*public class NestedLoops {
+public class NestedLoops {
     public static void main(String[] args) {
         // outer loops
         for (char i = 'A'; i <= 'J'; i++) {
@@ -72,7 +72,7 @@
             System.out.println();
         }
     }
-}*/
+}
 
 // Print Character Pattern..
 public class NestedLoops {
