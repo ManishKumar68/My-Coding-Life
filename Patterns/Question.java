@@ -1,5 +1,5 @@
 // Question 1 - Hollow rectangle pattern
-/*public class Question{
+public class Question{
     public static void main(String args[]){
         int Rows = 4;
         int Cols = 5;
@@ -15,7 +15,7 @@
             System.out.println();
         }
     }
-}*/
+}
 
 /* output
 
@@ -26,8 +26,8 @@
     
     */
 
-//  INVERTED & ROTATED HALF-PYRAMID pattern 
- /*public class Question{
+// Question 2 - INVERTED & ROTATED HALF-PYRAMID pattern 
+ public class Question{
     public static void main(String args[]){
         
         
@@ -44,9 +44,9 @@
             System.out.println();
         }
     }
-}*/
-// inverted Star partten Print 
-/*public class Question {
+}
+// Question 3 - inverted Star partten Print 
+public class Question {
     public static void main(String[] args) {
         int n = 5;
         int a = 1;
@@ -60,9 +60,10 @@
             System.out.println();
         }
     }
-}*/
-// Quesyion - 0-1 Triangle pattern
- /*public class Question {
+}
+
+// Quesyion 4 - 0-1 Triangle pattern
+ public class Question {
     public static void main(String [] args){ 
         int n = 5;
         // Outter Lopp
@@ -80,10 +81,10 @@
         }
 
     }
-}*/
+}
 
-// SOLID RHOMBUS pattern
-/*public class Question{
+// Question 5 - SOLID RHOMBUS pattern
+public class Question{
     public static void main(String args[]){
         int rows = 5;
         
@@ -101,10 +102,10 @@
             System.out.println();
         }
     }
-}*/
+}
 
-// HOLLOW RHOMBUS Pattern
-/*public class Question {
+// Question 6 - HOLLOW RHOMBUS Pattern
+public class Question {
     public static void main(String [] args){
         int n = 5;
         for (int i = 1; i <= n; i++){
@@ -122,7 +123,7 @@
             System.out.println();
         }
     }
-}*/
+}
 
 /* output
 
@@ -134,8 +135,8 @@
 
 */
 
-// DIAMOND Pattern
-/*public class Question {
+// Question 7 - DIAMOND Pattern
+public class Question {
     public static void main (String[] args){
         int row = 5;
         int mid = row/2;
@@ -165,10 +166,10 @@
             System.out.println();
         }
     }
-}*/
+}
 
-// NUMBER PYRAMID pattern
-/*public class Question {
+// Question 8 - NUMBER PYRAMID pattern
+public class Question {
     public static void main (String[] args){
         
         int n = 5;
@@ -191,11 +192,10 @@
             System.out.println();
         }
     }
-}*/
+}
 
-
-// NUMBER PYRAMID pattern-
-/*public class Question {
+//Question 10 -  NUMBER PYRAMID pattern-
+public class Question {
     public static void main(String[] args) {
 
         int n = 5;
@@ -213,8 +213,9 @@
             System.out.println();
         }
     }
-}*/
+}
 
+// Question 11 - ButterFly Partten..
 public class Question {
     public static void main(String[] args) {
 
