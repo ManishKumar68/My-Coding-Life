@@ -1,4 +1,5 @@
-/* Question 1 :- Print numbers from 1 to 10.
+// Question 1 :- Print numbers from 1 to 10.
+import java.util.Scanner;
 public class Question {
     public static void main(String[] args) {
         int a = 1;
@@ -7,10 +8,11 @@ public class Question {
             a++;
         }
     }
-}*/
+}
 
-//Question @ :- Print number from 1 to n.
-/*public class Question {
+//Question 2 :- Print number from 1 to n.
+import java.util.Scanner;
+public class Question {
     public static void main(String[] args) {
         Scanner Scanner = new Scanner(System.in);
         System.out.print("Enter the number : ");
@@ -22,11 +24,12 @@ public class Question {
             counter++;
         }
     }
-}*/
+}
 
 
-// 3 Question - Print sum of First n  natural Number.
-/*public class Question {
+// 3 Question 3 - Print sum of First n  natural Number.
+import java.util.Scanner;
+public class Question {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
@@ -42,11 +45,12 @@ public class Question {
         System.out.println("-----------");
         System.out.println(" Total number of n : " +sum);
     }
-}*/
+}
 
 
-//Print SQUARE pattern
-/*public class Question {
+// Question 4 - Print SQUARE pattern
+import java.util.Scanner;
+public class Question {
     public static void main(String[] args) {
 //        for loops same worksss.
         for (int line = 1 ; line <= 4; line++) {
@@ -59,20 +63,21 @@ public class Question {
             i++;
         }
     }
-}*/
+}
 
-// Question Print Reverse of a number.
-/*public class Question {
+// Question 5 - Print Reverse of a number.
+public class Question {
     public static void main(String[] args) {
         for(int n = 108; n >= 1; n--) {
             System.out.println(n);
         }
     }
-}*/
+}
 
 
-// Question - Print reverse of a number using loop.  (n = 10899)
-/*public class Question {
+// Question 6 - Print reverse of a number using loop.  (n = 10899)
+import java.util.Scanner;
+public class Question {
     public static void main(String[] args) {
         int n = 10899;
         while (n > 0) {
@@ -82,10 +87,11 @@ public class Question {
         }
         System.out.println(" n value is : " + n);
         }
-    }*/
+    }
 
-//    Question Reverse of a number using  loop ( n = 10899)
-/*public class Question {
+//    Question 7 - Reverse of a number using  loop ( n = 10899)
+import java.util.Scanner;
+public class Question {
     public static void main(String[] args) {
         int n = 10899;
         int originalNumber = n;
@@ -117,11 +123,11 @@ public class Question {
         System.out.println(originalNumber);
         System.out.println(" Reverse of a number is : " + reverse);
     }
-}  */ 
+}  
 
 
-//Question - Check if a number is Prime or not. (Formula -
-/*import java.util.Scanner;
+//Question 8 - Check if a number is Prime or not. (Formula -
+import java.util.Scanner;
 public class Question {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -145,10 +151,10 @@ public class Question {
         }
     }
         
-}*/
+}
 
- //Question - Check if a number is Prime or not. (Formula - optimized approach)
-/*import java.util.Scanner;
+ //Question 9 - Check if a number is Prime or not. (Formula - optimized approach)
+import java.util.Scanner;
 public class Question {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -172,13 +178,12 @@ public class Question {
         }
     }
         
-}*/
-
+}
 
 
 // LOOPS QUESTIONS
-// Question 1 :How many times 'Hello' is printed?
-/*import java.util.Scanner;
+// Question 10 : How many times 'Hello' is printed?
+import java.util.Scanner;
 public class Question {
     public static void main(String[] args) {
         // for (int i = 0; i < 5; i++){
@@ -186,17 +191,72 @@ public class Question {
         //     i = i + 2;
         // }
     }
-}*/
+}
 
-// Question2: Write a program that reads a set of integers, and then prints the sum of the even and odd integers
+
+// Question 11: Write a program that reads a set of integers, and then prints the sum of the even and odd integers
 import java.util.Scanner;
 public class Question {
     public static void main(String[] args) {
-Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number : ");
-        int n = sc.nextInt();
-        int sum = 0;
-        
-        
+        Scanner sc = new Scanner(System.in);
+        int number; //99 , 7 , 88 ,27, 
+        int choice; //yes , yes , yes , no
+        int evenSum = 0; //88+
+        int oddSum = 0; // 99 + 7 + 27
+        do {
+            System.out.println("Enter the Number ");
+            number = sc.nextInt();
+
+            if(number % 2 == 0){
+                evenSum += number; // evenSum=  evenSum + number that is same 
+            } else {
+            oddSum += number;
+        }
+
+        System.out.println("Do you went to continue? press 1 for yes or 0 for no");
+        choice = sc.nextInt();
+
+        } while (choice == 1);
+        System.out.println("Sum of even Number :" + evenSum); //88
+        System.out.println("Sum of odd Number :" +oddSum);   // 133
+    }
+}*/
+
+ 
+// Question 12 : Write a program to find the factorialof any number entered by the user.(Hint:factorial of a number n=n*(n-1)*(n-2)*(n-3)*......*1andex is ts for positive numbers only. We write factorial as n!So, factorial of 0! = 1, 1! = 1, 2! = 2, 3! = 6, 4! = 24 and so on.Note - Please do not confuse factorial with NOT EQUAL TO operator, they are not the same)
+import java.util.Scanner;
+public class Question {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter any positive integer: ");
+        int num = sc.nextInt();
+        int fact = 1;
+        for (int i = 1; i <= num; i++) {
+            fact *= i;
+        }
+        System.out.println("Factorial: " + fact);
     }
 }
+
+// Question 14 - Write a program to printthemultiplicationtable of a number N,entered by the user.
+import java.util.Scanner;
+ public class Question {
+    public static void main(String [] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your naumber:");
+        int n = sc.nextInt();
+        for (int i = 1; i <= 10; i++){
+            System.out.println(n + " * "  + i + " = " + n*i);
+        }
+    }
+}
+
+// Question 15 - What is wrong in the following program
+ public class Question {
+    public static void main(String [] args) {
+        for (int i = 0;
+         i <= 5; i++){
+            System.out.println("i = " + i) ;
+         }
+    }
+ }
