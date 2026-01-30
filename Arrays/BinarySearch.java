@@ -58,7 +58,7 @@
 }*/
 
 // Question Pairs in an Array [2, 4, 6, 8, 10]
-public class BinarySearch{
+/*public class BinarySearch{
     // function cerate 
     public static void printPairs(int number[]){
         int tp = 0;
@@ -71,10 +71,36 @@ public class BinarySearch{
 
             System.out.println();
         }
-        System.out.println("total pairs " +tp);
+        System.out.println("total pairs " + tp);
     }
     public static void main(String[] args) {
         int number[] = {2,8,9,5,4};
         printPairs(number);
+    }
+}
+*/
+
+// print Subarrays [2,4,6,8,10]
+public class BinarySearch{
+    public static void Subarray(int number[]){
+        int total = 0;
+        for(int i = 0; i < number.length; i++){
+            int start = i;
+            for (int j = i + 1; j < number.length; j++){
+                int end = j;
+                for (int k = start; k <= end; k++){
+                    System.out.println(number[k] + "");
+                }
+                total++;
+                System.out.println();
+            }
+            System.out.println();
+        }
+        System.out.println("total number of Pairs : " + total);
+    }
+
+    public static void main(String[] args){
+        int number[] = {2,4,6,8,10};
+        Subarray(number);
     }
 }
