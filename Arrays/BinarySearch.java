@@ -27,7 +27,7 @@
 }*/
 
 
-// Reverse an Array [2 , 4 , 6 , 8 , 10]
+// Reverse an Array [2 , 4 , 6 , 8 , 10 ,88]
 public class BinarySearch {
 
     // make a funcation 
@@ -36,7 +36,7 @@ public class BinarySearch {
          int end = a.length - 1;
 
          while(start < end) {
-            // swap
+            // swapd tec..
             int temp = a[end];
             a[end] = a[start];
             a[start] = temp;
@@ -46,7 +46,7 @@ public class BinarySearch {
          }
     }
     public static void main(String[] args) {
-        int a[] = {2 , 4 , 6 , 8 , 10};
+        int a[] = {2 , 4 , 6 , 8 , 10, 88};
         revarse(a);
         // print the revarse array
         for (int i = 0; i < a.length; i++){
