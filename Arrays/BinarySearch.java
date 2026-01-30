@@ -36,7 +36,7 @@ public class BinarySearch {
          int end = a.length - 1;
 
          while(start < end) {
-            // swapd tec..
+            // swapd tec...
             int temp = a[end];
             a[end] = a[start];
             a[start] = temp;
