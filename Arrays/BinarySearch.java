@@ -28,7 +28,7 @@
 
 
 // Reverse an Array [2 , 4 , 6 , 8 , 10 ,88]
-public class BinarySearch {
+/*public class BinarySearch {
 
     // make a funcation 
     public static void revarse(int a[]){
@@ -55,4 +55,26 @@ public class BinarySearch {
         System.out.println();
     }
 
+}*/
+
+// Question Pairs in an Array [2, 4, 6, 8, 10]
+public class BinarySearch{
+    // function cerate 
+    public static void printPairs(int number[]){
+        int tp = 0;
+        for(int i = 0; i < number.length; i++){
+            int current = number[i]; //2, 4, 6, 8, 10
+            for(int j = i+1; j < number.length; j++){
+                System.out.println("(" + current + "," + number[j] + ")");
+                tp++;
+            }
+
+            System.out.println();
+        }
+        System.out.println("total pairs " +tp);
+    }
+    public static void main(String[] args) {
+        int number[] = {2,8,9,5,4};
+        printPairs(number);
+    }
 }
